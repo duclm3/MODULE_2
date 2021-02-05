@@ -35,29 +35,25 @@ public class DocSoThanhChu {
             int hangTram = so / 100;
             int hangChuc = so % 100 / 10;
             int hangDonVi = so % 100 % 10;
-            System.out.println("Hàng trăm:"+hangTram );
-            System.out.println("Hàng chục:"+hangChuc );
-            System.out.println("Hàng đơn vị:"+hangDonVi );
             if (hangChuc == 1) {
                 if (hangDonVi == 0) {
                     System.out.println(soThanhChu[hangTram] + " Trăm Mười");
                 } else if (hangDonVi == 5) {
-                    System.out.println(soThanhChu[hangTram] + "Trăm Mười Lăm");
+                    System.out.println(soThanhChu[hangTram] + " Trăm Mười Lăm");
                 } else {
-                    System.out.println(soThanhChu[hangTram] + "Trăm Mười " + soThanhChu[hangDonVi]);
+                    System.out.println(soThanhChu[hangTram] + " Trăm Mười " + soThanhChu[hangDonVi]);
                 }
             }else if(hangChuc == 0 && hangDonVi == 0){
-                System.out.println(soThanhChu[hangTram] + "Trăm");
+                System.out.println(soThanhChu[hangTram] + " Trăm");
             }else if(hangChuc == 0){
-                System.out.println(soThanhChu[hangTram] + "Trăm Linh"+ soThanhChu[hangDonVi]);
+                System.out.println(soThanhChu[hangTram] + " Trăm Linh "+ soThanhChu[hangDonVi]);
             }else {
-
                 if (hangDonVi == 0) {
                     System.out.println(soThanhChu[hangTram] + " Trăm" + soThanhChu[hangChuc] + " mươi");
                 }else if(hangDonVi == 1){
-                    System.out.println(soThanhChu[hangTram] + " Trăm" + soThanhChu[hangChuc] + "mốt");
+                    System.out.println(soThanhChu[hangTram] + " Trăm" + soThanhChu[hangChuc] + " mốt");
                 }else if (hangDonVi == 5){
-                    System.out.println(soThanhChu[hangTram] + " Trăm" + soThanhChu[hangChuc] + "lăm");
+                    System.out.println(soThanhChu[hangTram] + " Trăm " + soThanhChu[hangChuc] + " lăm");
                 }else {
                     System.out.println(soThanhChu[hangTram] + " Trăm" + soThanhChu[hangChuc] + " mươi " + soThanhChu[hangDonVi]);
                 }
