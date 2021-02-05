@@ -8,5 +8,6 @@ public class test {
         System.out.println(x);
         System.out.println(c);
         System.out.printf("Giá trị số nguyên:%d, giá trị số thực:%f",a,b);
+        // %d, %f, %s, %5d, %-5d, %.2f,
     }
 }
