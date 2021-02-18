@@ -1,9 +1,11 @@
-import java.util.Arrays;
-
 public class test {
+    public void test1 (int[] n){
+        n[0] = 100;
+    }
+    public void test2(int[] n){
+
+    }
     public static void main(String[] args) {
-        MyClass a1 = new MyClass();
-        System.out.println(a1.a);
-        System.out.println(a1.b);
+
     }
 }

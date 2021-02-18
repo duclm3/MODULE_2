@@ -2,22 +2,27 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class DeleteElement {
-    public static int[] deleteElement(int[] n,int X){
-        int i ;
-        int leng = n.length;
-        for (i = 0; i < n.length; i++) {
-            while (X == n[i]){
-                for (int j = i; j < n.length-1; j++) {
-                    n[j] = n[j+1];
-                }
-                n = Arrays.copyOf(n, n.length - 1);
-                if(n[n.length-1]==X){
-                    n = Arrays.copyOf(n, n.length - 1);
-                    break;
-                }
+    public static int[] deleteElement(int[] a,int x){
+        boolean check = false;
+        int count = 0;
+        for (int i = 0; i < a.length; i++) {
+            if(x == a[i]){
+                check = true;
+                count++;
             }
         }
-        return n;
+        if(check){
+            int[] newarr = new int[a.length-count];
+            for (int i = 0,j = 0; i < a.length; i++) {
+                if(x == a[i]){
+                    continue;
+                }
+                newarr[j] = a[i];
+                j++;
+            }
+            return newarr;
+        }
+        return a;
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
