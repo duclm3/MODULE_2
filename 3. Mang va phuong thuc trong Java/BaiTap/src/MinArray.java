@@ -7,6 +7,6 @@ public class MinArray {
                 min = a[i];
             }
         }
-        System.out.println(mins);
+        System.out.println(min);
     }
 }
