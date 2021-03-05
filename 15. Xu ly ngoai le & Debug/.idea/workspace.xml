@@ -19,7 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="925650a3-053f-4eb5-a5e4-cefbef5bbd32" name="Default Changelist" comment="" />
+    <list default="true" id="925650a3-053f-4eb5-a5e4-cefbef5bbd32" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pf-java-first-degree-equation/META-INF/pf-java-first-degree-equation.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pf-java-first-degree-equation/com/thuchanh/ArrayExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pf-java-first-degree-equation/com/thuchanh/CalculationExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pf-java-first-degree-equation/com/thuchanh/IllegalTriangleException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pf-java-first-degree-equation/com/thuchanh/IllegalTriangleExceptionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pf-java-first-degree-equation/com/thuchanh/LinearEquationResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pf-java-first-degree-equation/com/thuchanh/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pf-java-first-degree-equation/com/thuchanh/Triangle.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,8 +58,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.CalculationExample">
+  <component name="RunManager" selected="Application.ArrayExample">
+    <configuration name="ArrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thuchanh.ArrayExample" />
+      <module name="pf-java-first-degree-equation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thuchanh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thuchanh.CalculationExample" />
       <module name="pf-java-first-degree-equation" />
@@ -98,6 +122,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayExample" />
         <item itemvalue="Application.CalculationExample" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.IllegalTriangleExceptionTest" />
@@ -116,6 +141,9 @@
       <option name="presentableId" value="Default" />
       <updated>1614906616580</updated>
       <workItem from="1614906619120" duration="5539000" />
+      <workItem from="1614915735944" duration="2184000" />
+      <workItem from="1614917970690" duration="11000" />
+      <workItem from="1614918107685" duration="35000" />
     </task>
     <servers />
   </component>
@@ -132,24 +160,34 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="221" key="GridCell.Tab.0.bottom" timestamp="1614910898556">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1614917982559">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="221" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614910898556" />
-    <state width="1323" height="221" key="GridCell.Tab.0.center" timestamp="1614910898556">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1614917982559" />
+    <state width="1323" height="184" key="GridCell.Tab.0.bottom" timestamp="1614917940378">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="221" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1614910898556" />
-    <state width="1323" height="221" key="GridCell.Tab.0.left" timestamp="1614910898556">
+    <state width="1323" height="184" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614917940378" />
+    <state width="1323" height="184" key="GridCell.Tab.0.center" timestamp="1614917940378">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="221" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1614910898556" />
-    <state width="1323" height="221" key="GridCell.Tab.0.right" timestamp="1614910898556">
+    <state width="1323" height="184" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1614917940378" />
+    <state width="1323" height="184" key="GridCell.Tab.0.left" timestamp="1614917940378">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="221" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1614910898556" />
+    <state width="1323" height="184" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1614917940378" />
+    <state width="1323" height="184" key="GridCell.Tab.0.right" timestamp="1614917940378">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="184" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1614917940378" />
     <state width="1323" height="260" key="GridCell.Tab.1.bottom" timestamp="1614909049912">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -166,5 +204,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="260" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1614909049912" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1614918143953">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1614918143953" />
   </component>
 </project>
