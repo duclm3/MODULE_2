@@ -8,6 +8,7 @@ import java.util.*;
 public class ProductManager implements Manager<Product> {
     private List<Product> listPro;
     private ProductInputAndOuput proIO;
+
     public ProductManager() {
         proIO = new ProductInputAndOuput();
         this.listPro = new LinkedList<>();

@@ -58,6 +58,7 @@ public class ProductInputAndOuput {
                     System.out.println("Các thông tin nhập chưa đúng mời nhập lại:");
                 }
             }else{ //DELETE_PRO
+                System.out.println("aaaaaaa");
                 if(isInteger(id)){
                     product = new Product(Integer.parseInt(id),"",0);
                     break;
@@ -65,7 +66,7 @@ public class ProductInputAndOuput {
                     System.out.println("Các thông tin nhập chưa đúng mời nhập lại:");
                 }
             }
-
+            System.out.println("abc");
         }while(true);
         return product;
     }

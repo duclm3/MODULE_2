@@ -5,6 +5,8 @@ import com.baitap.ArrayList.ProductManager;
 public class MainLinkedListProduct {
     public static void main(String[] args) {
         ProductManager prm =  new ProductManager();
+        prm.delete();
+        prm.display();
         prm.add();
         prm.add();
         prm.add();
@@ -13,8 +15,7 @@ public class MainLinkedListProduct {
         prm.edit();
         prm.display();
 
-        prm.delete();
-        prm.display();
+
 
         prm.sort();
         prm.display();

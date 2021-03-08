@@ -20,15 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="925650a3-053f-4eb5-a5e4-cefbef5bbd32" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../12. Java Collection Framework/out/production/12. Java Collection Framework/com/baitap/ArrayList/MainProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12. Java Collection Framework/out/production/12. Java Collection Framework/com/baitap/ArrayList/ProductInputAndOuput.class" beforeDir="false" afterPath="$PROJECT_DIR$/../12. Java Collection Framework/out/production/12. Java Collection Framework/com/baitap/ArrayList/ProductInputAndOuput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12. Java Collection Framework/out/production/12. Java Collection Framework/com/baitap/ArrayList/ProductManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../12. Java Collection Framework/out/production/12. Java Collection Framework/com/baitap/ArrayList/ProductManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12. Java Collection Framework/out/production/12. Java Collection Framework/com/baitap/LinkedList/ProductInputAndOuput.class" beforeDir="false" afterPath="$PROJECT_DIR$/../12. Java Collection Framework/out/production/12. Java Collection Framework/com/baitap/LinkedList/ProductInputAndOuput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12. Java Collection Framework/out/production/12. Java Collection Framework/com/baitap/LinkedList/ProductManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../12. Java Collection Framework/out/production/12. Java Collection Framework/com/baitap/LinkedList/ProductManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12. Java Collection Framework/src/com/baitap/ArrayList/MainArrayListProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/../12. Java Collection Framework/src/com/baitap/ArrayList/MainArrayListProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12. Java Collection Framework/src/com/baitap/ArrayList/ProductInputAndOuput.java" beforeDir="false" afterPath="$PROJECT_DIR$/../12. Java Collection Framework/src/com/baitap/ArrayList/ProductInputAndOuput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12. Java Collection Framework/src/com/baitap/LinkedList/MainLinkedListProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/../12. Java Collection Framework/src/com/baitap/LinkedList/MainLinkedListProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12. Java Collection Framework/src/com/baitap/LinkedList/ProductInputAndOuput.java" beforeDir="false" afterPath="$PROJECT_DIR$/../12. Java Collection Framework/src/com/baitap/LinkedList/ProductInputAndOuput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12. Java Collection Framework/src/com/baitap/LinkedList/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../12. Java Collection Framework/src/com/baitap/LinkedList/ProductManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pf-java-first-degree-equation/META-INF/pf-java-first-degree-equation.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pf-java-first-degree-equation/com/thuchanh/ArrayExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pf-java-first-degree-equation/com/thuchanh/CalculationExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pf-java-first-degree-equation/com/thuchanh/IllegalTriangleException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pf-java-first-degree-equation/com/thuchanh/IllegalTriangleExceptionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pf-java-first-degree-equation/com/thuchanh/LinearEquationResolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pf-java-first-degree-equation/com/thuchanh/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pf-java-first-degree-equation/com/thuchanh/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thuchanh/IllegalTriangleException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thuchanh/IllegalTriangleException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thuchanh/IllegalTriangleExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thuchanh/IllegalTriangleExceptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thuchanh/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thuchanh/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +62,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../12. Java Collection Framework" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.ArrayExample">
+  <component name="RunManager" selected="Application.IllegalTriangleExceptionTest">
     <configuration name="ArrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thuchanh.ArrayExample" />
       <module name="pf-java-first-degree-equation" />
@@ -122,10 +127,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IllegalTriangleExceptionTest" />
         <item itemvalue="Application.ArrayExample" />
         <item itemvalue="Application.CalculationExample" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.IllegalTriangleExceptionTest" />
         <item itemvalue="Application.LinearEquationResolver" />
       </list>
     </recent_temporary>
@@ -143,7 +148,11 @@
       <workItem from="1614906619120" duration="5539000" />
       <workItem from="1614915735944" duration="2184000" />
       <workItem from="1614917970690" duration="11000" />
-      <workItem from="1614918107685" duration="35000" />
+      <workItem from="1614918107685" duration="253000" />
+      <workItem from="1614930087155" duration="181000" />
+      <workItem from="1614930286592" duration="30000" />
+      <workItem from="1614930445293" duration="312000" />
+      <workItem from="1614930819699" duration="122000" />
     </task>
     <servers />
   </component>
@@ -168,26 +177,26 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1614917982559">
+    <state x="427" y="127" key="FileChooserDialogImpl" timestamp="1614930942444">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1614917982559" />
-    <state width="1323" height="184" key="GridCell.Tab.0.bottom" timestamp="1614917940378">
+    <state x="427" y="127" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1614930942444" />
+    <state width="1323" height="184" key="GridCell.Tab.0.bottom" timestamp="1614930942450">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="184" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614917940378" />
-    <state width="1323" height="184" key="GridCell.Tab.0.center" timestamp="1614917940378">
+    <state width="1323" height="184" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614930942450" />
+    <state width="1323" height="184" key="GridCell.Tab.0.center" timestamp="1614930942450">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="184" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1614917940378" />
-    <state width="1323" height="184" key="GridCell.Tab.0.left" timestamp="1614917940378">
+    <state width="1323" height="184" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1614930942450" />
+    <state width="1323" height="184" key="GridCell.Tab.0.left" timestamp="1614930942449">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="184" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1614917940378" />
-    <state width="1323" height="184" key="GridCell.Tab.0.right" timestamp="1614917940378">
+    <state width="1323" height="184" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1614930942449" />
+    <state width="1323" height="184" key="GridCell.Tab.0.right" timestamp="1614930942450">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="184" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1614917940378" />
+    <state width="1323" height="184" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1614930942450" />
     <state width="1323" height="260" key="GridCell.Tab.1.bottom" timestamp="1614909049912">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

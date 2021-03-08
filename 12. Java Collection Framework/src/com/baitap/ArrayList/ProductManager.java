@@ -27,8 +27,8 @@ public class ProductManager implements Manager<Product> {
     public boolean edit() {
         Product pro = proIO.inputProduct("CREATE_EDIT_PRO");
         if(searchById(pro.getId())!=-1){
-            listPro.get(pro.getId()).setName(pro.getName());
-            listPro.get(pro.getId()).setPrice(pro.getPrice());
+            listPro.get(searchById(pro.getId())).setName(pro.getName());
+            listPro.get(searchById(pro.getId())).setPrice(pro.getPrice());
             return true;
         }
         System.out.println("Không thể chỉnh sửa sp này!");

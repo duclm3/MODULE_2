@@ -1,6 +1,6 @@
 package com.thuchanh;
 
-public class IllegalTriangleException extends Exception {
+public class IllegalTriangleException extends Exception{
     public IllegalTriangleException(){
         super("Has side less than 0\n");
     }
