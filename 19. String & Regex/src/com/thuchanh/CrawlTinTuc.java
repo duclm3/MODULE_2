@@ -16,10 +16,10 @@ public class CrawlTinTuc {
             Scanner scanner = new Scanner(new InputStreamReader(url.openStream()));
             scanner.useDelimiter("\\Z");
             String content = scanner.next();
-            // remove all new line``
+            System.out.println(content);
             content = content.replaceAll("\\n+", "");
-//            content = content.replaceAll("(&quot;)","");
-            Pattern p = Pattern.compile(" alt=\"(.*) class=");
+            content = content.replaceAll("(&quot;)","");
+            Pattern p = Pattern.compile(" alt=\"(.*?) class=");
             Matcher m = p.matcher(content);
             while (m.find()) {
                 System.out.println(m.group(1));
