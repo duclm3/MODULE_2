@@ -1,0 +1,17 @@
+- Cập nhật trong phương thức add:
++ Mỗi lần thêm mới sp, lấy ngày và giờ hiện hành
++ Nếu mã sản phẩm bị trùng thì thông báo: sản phẩm đã tồn tại có muộn nhập thêm số lượng,
+có thì tiếp tục,không thì thoát
+
+- Thêm chức năng xem danh sách ngày nhập của sản phẩm:
++ Hiển thị mã sản phẩm và danh sách ngày nhập mới nhất cho đến cũ nhất.
+
+- Phương thức trong lớp productManager
+Kiểm tra xem có tồn tại sản phẩm này không
+Nếu không tồn tại bắt người dùng nhập lại và lại lặp lại
+cho đến khi người dùng nhấn enter thì dừng
+
+- Cập nhật sản phẩm
++ Khi giảm số lượng sản phẩm đi thì
+
+Khi nhập xong chọn nhập hay xuất
